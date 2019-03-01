@@ -1,0 +1,50 @@
+/* Main styles */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #212121;
+}
+
+.clear {
+  clear: both;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+  background-color: #ddd;
+  border-bottom: 1px solid #999;
+}
+
+h2 {
+  text-align: center;
+}
+
+canvas {
+  margin-top: 10px;
+  border: 1px solid #555;
+}
+
+.gallery img {
+  display: inline-block;
+  width: 195px;
+  height: 195px;
+}
