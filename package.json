@@ -4,10 +4,15 @@
   "description": "AI for create paintings from images.",
   "keywords": [
     "ai",
-    "machine",
+    "convnet",
+    "convnetjs",
+    "electron",
+    "electron-app",
     "learning",
     "javascript",
-    "electron"
+    "machine",
+    "machine-learning",
+    "machinelearning"
   ],
   "author": "Alex Devero",
   "license": "MIT",
