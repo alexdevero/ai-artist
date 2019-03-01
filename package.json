@@ -1,0 +1,22 @@
+{
+  "name": "ai-artist",
+  "version": "1.0.0",
+  "description": "AI for create paintings from images.",
+  "keywords": [
+    "ai",
+    "machine",
+    "learning",
+    "javascript",
+    "electron"
+  ],
+  "author": "Alex Devero",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "test"
+  },
+  "devDependencies": {
+    "electron": "^4.0.6"
+  }
+}
