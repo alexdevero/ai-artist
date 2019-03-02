@@ -1,5 +1,7 @@
 const { app, BrowserWindow } = require('electron')
 
+const contextMenu = require('electron-context-menu')
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
@@ -26,6 +28,14 @@ if (platform == 'darwin') {
   trayIcon = path.join(__dirname, 'assets/instagram-uploader-icon.ico')
 }
 */
+
+contextMenu({
+	prepend: (params, browserWindow) => [{
+    label: 'Download image',
+		// Only show it when right-clicking images
+		visible: params.mediaType === 'image'
+	}]
+})
 
 function createWindow () {
   // Create the browser window.
