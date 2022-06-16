@@ -22,7 +22,7 @@
     "test": "test"
   },
   "devDependencies": {
-    "electron": "^11.5.0"
+    "electron": "^15.5.5"
   },
   "dependencies": {
     "electron-context-menu": "^0.11.0"
